@@ -1,4 +1,4 @@
-package com.crimps.springAction.chapter1;
+package com.crimps.springAction.chapter2;
 
 /**
  * @author crimps
