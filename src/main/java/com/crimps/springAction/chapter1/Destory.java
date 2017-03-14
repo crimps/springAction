@@ -20,4 +20,14 @@ public class Destory {
         DestoryApi destoryApi = context.getBean("destory", DestoryApi.class);
         destoryApi.destoryWorld();
     }
+
+    @Test
+    public void testDestoryWorld2() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("chapter2/destoryworld-init.xml");
+        DestoryApi destoryApi = context.getBean("destoryInit", DestoryApi.class);
+        destoryApi.destoryWorld();
+
+        DestoryApi destoryApi1 = context.getBean("destoryInit2", DestoryApi.class);
+        destoryApi1.destoryWorld();
+    }
 }
