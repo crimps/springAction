@@ -1,7 +1,7 @@
 /**
  * @(#)com.crimps.springAction.chapter1.Destory.java Copyright (c) 2014-2018 crimps
  */
-package com.crimps.springAction.chapter2;
+package com.crimps.springAction.chapter1;
 
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
